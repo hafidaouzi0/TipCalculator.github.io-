@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>my game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+  <!-- <div id="container" >
+   <-- project 1--
+   <button  class="squares" style="background-color: red;height: 100px;width: 100px;"   value="red"></button>
+        <button  class="squares" style="background-color: green;height: 100px;width: 100px;"  value="green"></button>
+        <button  class="squares"
+        style="background-color: yellow;height: 100px;width: 100px;"  value="yellow"></button>
+        
+        
+           </div> 
+        <button 
+        style="width:50px;height:40px;margin-top: 30px;
+        margin-left: 130px;" 
+        id="clearbtn">Reset</button>
+        
+        
+-->
+ 
+
+   <!-- project 2-->
+
+<div id="container" >
+
+
+
+<label for="bill">Bill total:</label><br>
+<div class="inputcont">
+<span class="symbol">$</span>
+<input placeholder="0.00" name="bill" id="bill" type="number" onkeyup="calculateBill()"><br><br>
+</div>
+
+
+<label for="tip">Tip:</label><br>
+<div class="inputcont">
+<span class="symbol">%</span>
+<input placeholder="10" name="tip" id="tip" type="number" onkeyup=calculateBill()><br>
+<br>
+</div>
+<div class="titles">
+    <label>People</label> 
+<label style="float:right;">Total per person</label>
+
+</div>
+<br>
+<div class="inputs"> 
+
+
+    <button  class="btnpm" onclick="increaseP()">+</button>
+<span id="people">1</span>  
+ <button   class="btnpm"   onclick="decreaseP()">-</button>
+
+<span style="float: right;" id="total">0.00</span>
+</div>
+
+
+
+</div>
+
+
+
+
+
+   <script src="app.js"></script>
+</body>
+</html>
